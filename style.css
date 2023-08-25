@@ -1,0 +1,320 @@
+/* NAVBAR */
+.navbar {padding: 0.5rem; background-color: #f5f6f7 }
+
+.navbar-collapse {align-items: center; justify-content: space-between}
+
+.nav-link {margin: 0.5rem; font-family: 'Lato', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 2px; color: #000}
+
+.nav-link:hover {color: #49AF73}
+
+.navbar-nav .nav-link.active {color:#49AF73}
+
+.nav-link-white {font-family: 'Lato', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 2px; color: #9D9D9D; text-decoration: none;}
+
+.nav-link-white:hover {color: #49AF73}
+
+.submenu a {font-family: 'Lato', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 2px; color: #000 }
+
+.submenu a:hover {color: #49AF73}
+
+.dropdown-menu {background-color: rgba(255,255,255,0.80); border-radius: 0px; border-style: solid; border-width:1px; border-color:black}
+
+.navbar-toggler {
+	width: 70px; 
+	height: 50px; 
+	background-color: #fff;
+}
+ 
+.navbar-toggler-icon{color: black}
+
+.submenu .active {
+	background-color: #49AF73
+}
+
+.btn-whatsapp {
+        display:block;
+        min-width: 40px;
+        color: #fff;
+        position: fixed;
+        right:20px;
+        bottom: 20px;
+        border-radius:50%;
+        line-height:50px;
+        text-align:center;
+        z-index:999;
+}
+
+/*CAROUSEL*/
+
+.carousel-caption h5 {
+	font-size: 2.5rem;
+	font-family: 'Rubik', sans-serif;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;}
+
+.carousel-caption p {
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+}
+
+/* FUENTES */
+
+h1 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 2rem;
+	letter-spacing: 1px;
+    font-weight: 700
+}
+
+h2 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+h3 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+p {font-family: 'Rubik', sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	font-weight: 400;
+	
+}
+.titloseccion {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border-bottom: 2px solid #49AF73;
+	margin-bottom: 15px;
+}
+.titloseccion2 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	font-weight: 500;
+	border-bottom: 2px solid #49AF73;
+	margin-bottom: 15px;
+}
+
+.lineaverde {	border-top: 2px solid #49AF73; padding: 5px;
+}
+.btn-conocer {
+	padding: 15px;
+    margin: 10px;
+	background-color: #49AF73;
+	border-radius: 10px;
+}
+
+.btn-conocer a {   
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.8rem;
+	font-weight: 500;
+	text-decoration: none;
+	color: white;
+}
+
+.btn-conocer:hover {
+	transition: all 0.2s ease;
+	background-color: #000;
+	color: white;
+}
+.btn-light {font-family: 'Rubik', sans-serif;
+	font-size: 0.8rem;}
+
+/*MARCAS*/
+.marcas {
+	padding: 1rem}
+
+/*BIENVENIDOS*/
+.bienvenidos {
+	background-color: black; 
+	min-hight:450px;
+    text-align: center;
+    color: white}
+
+.bienvenidos-principal {
+	padding: 3rem}
+
+
+/*EMPRESA*/
+.empresa {
+    text-align: center;
+    color: white;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+.overlay {
+	position: absolute;
+ 	text-align: center;
+	font-weight: bold;
+	max-width: 800px;
+}
+
+
+
+/* PASTA */
+
+.pasta {
+	background-color: #DCDCDC; 
+	min-hight:450px;
+    text-align: left;
+	padding: 3rem;}
+
+.oscuro {
+	background-color: #282828;
+	min-hight:450px;
+	color: whitesmoke;
+	padding: 3rem;}
+
+.blanco {
+	background-color: #fff;
+	min-hight:450px;
+	color: black;
+	padding: 3rem;}
+
+.list  {
+    list-style-type: circle;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.image-main {
+	padding-bottom: 1rem;
+	border-radius: 50%; 
+}
+
+/* PISCINA */
+
+.piscinas {
+	background-color: #F8F5F2; 
+	min-hight:450px;
+    text-align: right;
+	padding: 10rem;}
+
+
+/*ICONOS SOCIL*/
+
+
+
+.sociales-iconos i{
+	padding: 15px;
+	font-size: 40px;
+	color: #363535;
+	transition: all 0.2s ease-in;
+}
+
+.sociales-iconos i:hover {
+	color:#49AF73;
+}
+
+/*FOOTER*/
+
+.footer {
+	padding: 30px;
+	background-color: #363535;
+	color: whitesmoke;
+}
+
+.footer a {text-decoration: none; color: whitesmoke
+}
+
+/*PIEVERDE*/
+.pieverde {
+	background-color: #49AF73;
+	padding: 20px;
+	color: white;
+    font-family: 'Rubik', sans-serif;
+	font-size: 0.7rem;
+	letter-spacing: 1px;
+	font-weight: 500;
+    text-align: center;
+
+}
+.toplogo {
+	background-color: #fff;
+	padding: 10px;
+	color: white;
+	font-weight: 500;
+    text-align: center;
+
+}
+.mapa {
+	background-color: #fff;
+	padding: 15px;
+	color: #363535;
+    font-family: 'Rubik', sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+	font-weight: 500;
+    text-align: center;
+
+}
+
+/* FORMULARIO*/
+
+/* reglas CSS para formulario */
+.form-consulta {padding: 25px; font-family: 'Rubik', sans-serif;}
+.campo-form {width:100%; height:36px; margin:2px 0 6px; padding-left:10px; box-sizing: border-box; border:0; font-family: 'Rubik', sans-serif; font-size:1em; padding: 15px;}
+label span {color: #363535}
+textarea {min-height: 150px!important;}
+.btn-form {display: inline-block; border:0; background: #49AF73; height: 46px; line-height: 46px; padding: 0 20px; font-family: 'Rubik', sans-serif; color:#fff; text-decoration: none; text-transform: uppercase; letter-spacing: 1px}
+.btn-form:hover {background: #444}
+
+/* CONTACTO */
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+  color: #49AF73;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+  margin-bottom: 20px;
+
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+ }
+@media screen and (max-width: 767px) {
+	.navbar-brand {display: none;}
+}
+@media screen and (min-width: 767px) {
+	.toplogo {display: none;}
+}
+@media screen and (max-width: 767px) {
+	.bannerseccion {min-height: 250px}
+}
+
+@media screen and (max-width: 576px) {
+	.image-main {width: 200px;}
+}
+
